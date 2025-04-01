@@ -19,3 +19,9 @@ lambda/*.zip
 
 # Mac specific file (stores File Explorer data)
 .DS_Store
+
+# __pycache__ directories
+**/__pycache__/
+
+# pytest cache
+**/.pytest_cache/
