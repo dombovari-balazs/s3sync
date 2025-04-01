@@ -1,0 +1,15 @@
+# Terraform state
+infrastructure/terraform.tfstate
+infrastructure/terraform.tfstate.backup
+infrastructure/terraform.tfstate.*
+
+# Terraform crash logs
+infrastructure/crash.log
+infrastructure/*.tfplan
+
+# Local .terraform directories
+infrastructure/.terraform/
+infrastructure/.terraform.lock.hcl
+
+# Lambda deployment artifacts
+lambda/*.zip
