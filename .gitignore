@@ -13,3 +13,9 @@ infrastructure/.terraform.lock.hcl
 
 # Lambda deployment artifacts
 lambda/*.zip
+
+# Virtual env files
+**/.venv/
+
+# Mac specific file (stores File Explorer data)
+.DS_Store
